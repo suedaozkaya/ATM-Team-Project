@@ -2,6 +2,7 @@
 *.iml
 *.ipr
 
-.out
+
+/out
 
 
