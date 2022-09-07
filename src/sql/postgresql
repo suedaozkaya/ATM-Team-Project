@@ -1,0 +1,19 @@
+CREATE table musteriler(
+musteri_no INT,
+musteri_isim_soyisim VARCHAR(50),
+musteri_sifre INT,
+bakiye REAL,
+birikim_hesabi REAL,
+blokeMi BOOLEAN
+);
+
+INSERT INTO musteriler VALUES(default,'Sueda Ozkaya',7303,1500,3200,false);
+INSERT INTO musteriler VALUES(default,'Emrullah Celebi',2022,2000,4000,false);
+INSERT INTO musteriler VALUES(default,'Enes Ince',1951,15000,3000,false);
+INSERT INTO musteriler VALUES(default,'Ersin Akun',6219,20000,2500,false);
+INSERT INTO musteriler VALUES(default,'Fatih Polat',1234,13000,12000,false);
+INSERT INTO musteriler VALUES(default,'Mehmet Emin Catal',1990,15000,32000,false);
+INSERT INTO musteriler VALUES(default,'Sezer Ercan',4321,150000,320000,false);
+
+
+SELECT * FROM musteriler;
