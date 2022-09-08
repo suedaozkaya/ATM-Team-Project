@@ -1,5 +1,5 @@
 CREATE table musteriler(
-musteri_no INT,
+musteri_no SERIAL,
 musteri_isim_soyisim VARCHAR(50),
 musteri_sifre INT,
 bakiye REAL,
